@@ -1,0 +1,100 @@
+html,body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header{
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+header{
+    /* background-color: slategrey; */
+    max-width: 5000px
+}
+
+.left-container 
+.right-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-container{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;   
+}
+
+.logoo {
+    width: 130px;
+    height: 70px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.nav-items{
+    color: white;
+    padding: 10px;
+    margin-right: 20px;
+    color: #e5e5e5;
+    list-style: none;
+    opacity: .80;
+}
+.nav-items a{
+    text-decoration: none;
+    color: #e5e5e5;
+}
+
+.nav-items :active{
+    color: white;
+    opacity: 1;
+    font-weight: 500;
+    
+}
+
+.right-container{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+#usr-id{
+    width: 40px;
+    height: 38px;
+    border-radius: 100%;
+    padding: 0px 10px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.ico{
+    padding: 5px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+/* RESPONSIVE CSS FOR MOBILE DEVICES */
+@media (max-width:767px){
+    .navbar{
+        display: none;
+    }
+    .right-container{
+        display: none;
+    }
+}
